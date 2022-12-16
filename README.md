@@ -1,11 +1,40 @@
-# Nextra Blank Custom Theme/Boilerplate Example
+# Richard Simms personal site
 
-A nearly blank MDX blog/content site powered by a custom [Nextra](https://nextra.vercel.app) theme (see `components/layout.js`) w/Tailwind already setup. 
+## Getting started
 
-The post list for the blog index in `pages/index.js` comes out of `./posts.json`. If you wanted to get the Nextra page map to use on the index page, you _could_ make a blank `pages/index.mdx` and move that "page" component into `components/layout` (just check for `route === '/'`) and render it).
+To get started with this template, first install the npm dependencies:
 
-Anyways, hopes this helps. Nextra rocks for static content. 
+```bash
+npm install
+```
 
+Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
 
+```
+NEXT_PUBLIC_SITE_URL=https://example.com
+```
 
+Next, run the development server:
 
+```bash
+npm run dev
+```
+
+Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+## Customizing
+
+You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+
+## License
+
+This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+
+## Learn more
+
+To learn more about the technologies used in this site template, see the following resources:
+
+- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
+- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
+- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+- [MDX](https://mdxjs.com) - the MDX documentation
